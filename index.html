@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div>
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year">
+        <br>
+        <label for="country">Country Code:</label>
+        <input type="text" id="Countrycode" name="country">
+        <br>
+        <button type="button" onclick="countryHoliday()">Get Holiday List</button>
+    </div>
+    <script src="script1.js"></script>
+    <div class="holidays"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>Enter a City</div>
+    <input id="City" placeholder="Enter City">
+    <br>
+	<button onclick="getHoliday()" id="submit">Submit</button>
+
+    <div class="weather"></div>
+    <div class="holiday"></div>
+    <div class="hotels"></div>
+
+	<br>
+    <label for="checkin">Check-in Date:</label>
+	<input type="date" id="checkin" name="checkin">
+	<br>
+	<label for="checkout">Check-out Date:</label>
+	<input type="date" id="checkout" name="checkout">
+	<br>
+    <button type="button" onclick="getRentalInfo()" id="rentalList">Get Rental Info</button>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
